@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;    
+    width: 100%;
+    background-color: rgb(144, 152, 145);
+  
+}
+#main{
+
+    display: flex;
+    justify-content: center;
+   
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#part1{
+    height: 100%;   
+    width: 30%;
+    background-color:rgb(59, 58, 58);
+}
+#part2{
+    height: 100%;   
+    width: 60%;
+    background-color:blue;
+   
+    
+}
+#part2 img{
+    height: 100%;   
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#part3{
+    height: 100%;   
+    width: 15%;
+    background-color:rgb(140, 140, 140);
+}
+#text{
+    padding: 10px;
+    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position : absolute;
+    width:400px ;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 5%;
+top:50%;
+transform: translate(50%, -50%);
+}
+
+#text h1{
+    font-size: 85px;
+    font-family: monument;
+    font-family: 900;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#smallimg{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background-color: rgb(83, 25, 15);
+     border-radius: 20px;
+   
+}
+#smallimg img{
+    height: 100%;   
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    
+    
+}
+#vtext{
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    left: 43%;
+    transform: rotate(-90deg);
+}
+#vtext h1{
+    font-size: 80px;
+
+    font-weight: 900;
+    font-family: monument;
+-webkit-text-stroke-color: rgba(255, 255, 255, 0.839);
+-webkit-text-stroke-width: 3px;
+    color: transparent;
+    text-transform: uppercase;
+   
+  
+   
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    right: 87%;
+    top: 7%;
+    
+}
+#logo img{
+    height: 100%;   
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    image-resolution: high;
+}
